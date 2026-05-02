@@ -1,0 +1,1 @@
+const h=document.getElementById('header');window.addEventListener('scroll',()=>{if(h)h.classList.toggle('scrolled',window.scrollY>30)});const b=document.querySelector('.menu-toggle'),n=document.querySelector('.nav');if(b&&n){b.onclick=()=>n.classList.toggle('open')}
